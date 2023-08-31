@@ -1,0 +1,2 @@
+#!/bin/bash                                       echo '../,'$(ls -A | sort -d | sort -n | tr '\n'",
+| sed '/,/,\//g')$'\n'
